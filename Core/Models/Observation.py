@@ -1,2 +1,2 @@
-class Observation():
+class Observation:
     pass

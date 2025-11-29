@@ -1,12 +1,11 @@
 from abc import ABC, abstractmethod
 
+from Core.Models import ObjectInfo
+
+
 class IObject(ABC):
     @abstractmethod
-    def get_position(self):
-        pass
-
-    @abstractmethod
-    def get_symbol(self):
+    def get_info(self) -> ObjectInfo:
         pass
 
     @abstractmethod
